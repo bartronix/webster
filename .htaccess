@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^ajaxerror$ /app/errorpages/500_ajax.php [L]
+RewriteRule ^error$ /app/errorpages/500.php [L]
+RewriteCond %{REQUEST_URI} !=/index.php
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule .* /index.php

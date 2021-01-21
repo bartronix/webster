@@ -1,0 +1,27 @@
+.flash {
+	border:1px solid #363636;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	color:#ffffff;
+	padding:10px;
+	margin-bottom:10px;
+	font-size:1.1em;
+}
+
+.flash-error {
+	background-color:#881111;
+}
+
+.flash-success {
+	background-color:#237300;
+}
+
+.flash-default {
+	background-color:#3297e4;
+}
+
+.app-error {
+	border:3px solid red;
+	padding:5px;
+}
